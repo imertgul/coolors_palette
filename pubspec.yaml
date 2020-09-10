@@ -2,7 +2,7 @@ name: coolors_palette
 description: A new Flutter package that helps you to get your color palette from coolors.co to your project
 version: 0.0.1
 author: Mert Gül<ibrahimmertgul@gmail.com>
-homepage:
+homepage: https://github.com/imertgul/coolors_palette
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
