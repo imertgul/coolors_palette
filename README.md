@@ -2,13 +2,17 @@
 
 A new Flutter package that helps you to get your color palette from coolors.co to your project
 
-## Getting Started
+## Example
 
-<!-- This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference. -->
+    final myColors = CoolorsPalette(
+    "https://coolors.co/055f3d-066943-07744a-313131-383c3f-34454d-d2433b-b13126-97190b-d10a10");
+    print(myColors.print());
+    for (var i = 0; i < myColors.palette.length; i++) {
+	    print(myColors.palette[i]);
+    }
+    
+
+## Pending feature: 
+* Namable Colors
+* RGB Colors
