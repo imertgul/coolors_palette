@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 10th September 2020
 
-* TODO: Describe initial release.
+* Initial release. Takes coolors.co url and creates a color list as palette.
