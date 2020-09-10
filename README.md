@@ -9,7 +9,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  coolors_palette: ^0.0.1
+  coolors_palette: ^0.0.2
 ```
 
 ### 2. Install it
