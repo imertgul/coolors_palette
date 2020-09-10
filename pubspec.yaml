@@ -1,7 +1,7 @@
 name: coolors_palette
-description: A new Flutter package project.
+description: A new Flutter package that helps you to get your color palette from coolors.co to your project
 version: 0.0.1
-author:
+author: Mert Gül<ibrahimmertgul@gmail.com>
 homepage:
 
 environment:
