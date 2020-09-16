@@ -1,6 +1,6 @@
 
 # coolors_palette
-A new Flutter package that helps you to get your color palette from coolors.co to your project
+A Flutter package that helps you to get your color palette from coolors.co to your project
 
 ## Install
 ### 1. Depend on it
