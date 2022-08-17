@@ -1,3 +1,6 @@
+## [1.0.0] - 17 August 2022
+
+* Migration to Flutter 3
 ## [0.0.2] - 10th September 2020
 
 * Example and readme created

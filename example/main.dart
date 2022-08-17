@@ -30,19 +30,10 @@ class _MyAppState extends State<MyApp> {
       "https://coolors.co/055f3d-066943-07744a-313131-383c3f-34454d-d2433b-b13126-97190b-d10a10");
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: double.infinity,
-      width: double.infinity,
-      child: Column(
-        children: <Widget>[
-          _buildColorContainer(myColors.palette[0]),
-          _buildColorContainer(myColors.palette[1]),
-          _buildColorContainer(myColors.palette[2]),
-          _buildColorContainer(myColors.palette[3]),
-          _buildColorContainer(myColors.palette[4]),
-          _buildColorContainer(myColors.palette[5]),
-        ],
-      ),
+    return ListView(
+      children: <Widget>[
+        ...myColors.palette.map((e) => _buildColorContainer(e))
+      ],
     );
   }
 }
